@@ -22,8 +22,8 @@ The following user types exist in the system:
 ![image](https://user-images.githubusercontent.com/47091126/165094078-7c4bc25d-dd7c-45f5-b09d-06dc37239fd5.png)
   
 ## Challenges
-- Time management: Balancing design and implementation
-- Learned value of Agile Methodology.
+- Time management: Balancing design and implementation (100 hours commited)
+- Learned value of Agile Methodology
 - Importance of Vertical integration
 - Documentation
 - Git for version control
