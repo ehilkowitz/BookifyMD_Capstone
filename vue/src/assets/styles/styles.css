@@ -1,0 +1,111 @@
+/* hyper link no line */
+.no-hyper{
+    text-decoration: none;
+    color:rgb(81, 56, 104)k;
+  }
+/* Table Styling */
+.table-btn{
+    border: 1px solid rgb(81, 56, 104) ;
+    padding: 5px 8px;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.table-btn:hover{
+    background-color: rgb(212, 240, 237) ;
+    color: white;
+}
+img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    }
+.elevated-box {
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+       
+        padding: 22px;
+        background: white;
+        border-radius: 5px;
+      }
+  .elevated-box-body {
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+       
+        margin: 100px auto;
+        padding: 22px;
+        background: white;
+        border-radius: 5px;
+      }
+      input{
+        width: 100%;
+        display: block;
+        margin: 8px 0;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border:1px solid;
+        }
+   input:hover{
+      border:1.4px solid  rgb(81, 56, 104);
+      }
+      h1 {
+        font-size: 1.5em; /* 40px/16=2.5em */
+        font-family: 'Lato', sans-serif;
+      }
+      
+      h2 {
+        font-size: 1.175em; /* 30px/16=1.875em */
+        font-family: 'Lato', sans-serif;
+      }
+      h3{
+        font-family: 'Merriweather', serif;;
+      }
+      
+      p {
+        font-size: 0.9em; /* 14px/16=0.875em */
+        font-family: 'Merriweather', serif;
+      }
+      /* 3 Column Layout Main */
+  .display-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center space-between;
+        flex-wrap: nowrap;
+        /* z-index: 1; */
+      }      
+      .left-column{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-grow: 1;
+        flex-shrink: 2;  
+        flex-basis: 22%;
+        padding: 2%;
+      }
+      .middle-column{
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       flex-grow: 2;
+       flex-basis: 40%;
+      }
+      .right-column{
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       flex-grow: 1;
+       flex-shrink: 2;
+       flex-basis: 22%;
+       padding: 2%;
+      }
